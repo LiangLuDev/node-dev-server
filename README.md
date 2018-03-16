@@ -1,4 +1,4 @@
-## node-dev-server（基于Express，Sequelize项目）
+## node-dev-server（基于Express，Sequelize、IIS的MVC项目）
 ### 功能应用
 > - 基于Express开发
 > - token登录验证
@@ -61,7 +61,7 @@ sequelize.authenticate().then(function () {
 });
 ```
 数据库使用
-ps.我只列出了基本操作，具体操作可看代码实现，代码注释清楚
+ps.我只列出了基本操作，具体操作可看[代码实现](https://github.com/LiangLuDev/node-dev-server/blob/e97bc617bb60c20fcc6c12f72a3028a052cddb74/models/user/user.js)，代码注释清楚
 ``` javascript
     创建用户  User.create(value)
 	查询符合条件的第一个用户  User.findOne(options)
