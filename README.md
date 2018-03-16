@@ -1,4 +1,5 @@
-## node-dev-server（基于Express，Sequelize、IIS的MVC项目）
+## node-dev-server（基于Express，Sequelize、IIS的MVC新手项目）
+项目简洁精悍，基本使用功能全部实现，很适合新手入门
 ### 功能应用
 > - 基于Express开发
 > - token登录验证
